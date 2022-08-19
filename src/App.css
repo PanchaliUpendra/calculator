@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.app{
+    background: #DAF0FF;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.app_cal_act{
+    width: 375px;
+height: 612px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+backdrop-filter: blur(102px);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+border-radius: 39px;
+-moz-box-shadow:    3px 3px 15px 16px rgba(96, 190, 255, 0.55);
+  -webkit-box-shadow: 3px 3px 15px 16px rgba(96, 190, 255, 0.55);
+  box-shadow:         3px 3px 15px 16px rgba(96, 190, 255, 0.55);
+  backdrop-filter: blur(102px);
+  position: relative;
+  overflow: hidden;
+  color: #38B9FF;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
 }
+.app_cal{
+    
+width: 375px;
+height: 612px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+background: #F7F8FB;
+backdrop-filter: blur(102px);
+
+
+border-radius: 39px;
+-moz-box-shadow:    3px 3px 15px 16px rgba(96, 190, 255, 0.55);
+  -webkit-box-shadow: 3px 3px 15px 16px rgba(96, 190, 255, 0.55);
+  box-shadow:         3px 3px 15px 16px rgba(96, 190, 255, 0.55);
+  backdrop-filter: blur(102px);
+  position: relative;
+  overflow: hidden;
+  color: #38B9FF;
+  display: flex;
+  flex-direction: column;
+}
+.app_cal_nav{
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: transparent;
+    min-height: 35px;
+    padding: 10px;
+}
+.app_cal_nav_tog{
+    height: 15px;
+    width: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px 80px rgba(0,0,0,0.14);
+    cursor: pointer;
+    background-color: white;
+
+}
+.app_cal_nav_tog_btn{
+    height:15px;
+    width:15px;
+    border-radius: 50%;
+    background-color: blue;
+    transition: 300ms;
+}
+.app_cal_nav_tog_btn_act{
+    margin-left:15px;
+    height:15px;
+    width:15px;
+    border-radius: 50%;
+    background-color: #38B9FF;
+    transition: 300ms;
 }
